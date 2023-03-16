@@ -1,6 +1,13 @@
 import turtle
 
-
+"""
+Creates a state.
+:param t: turtle to be used
+:param ini_sz: initial line length
+:param step: increment size
+:param n: number of lines
+:param turn_angle: degrees of rotation for consecutive lines
+"""
 def draw_spiral(t, step, ini_sz, n, turn_angle):
     for sz in range(ini_sz,ini_sz+n*step,step):
         t.fd(sz)

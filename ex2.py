@@ -2,6 +2,7 @@ import turtle
 
 
 def draw_poly(t, n, sz):
+    # draw side then turn
     for i in range(n):
         t.fd(sz)
         t.left(360/n)
